@@ -1,0 +1,25 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { CustomerDashbordComponent } from './customer-dashbord.component';
+
+describe('CustomerDashbordComponent', () => {
+  let component: CustomerDashbordComponent;
+  let fixture: ComponentFixture<CustomerDashbordComponent>;
+
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
+      declarations: [ CustomerDashbordComponent ]
+    })
+    .compileComponents();
+  }));
+
+  beforeEach(() => {
+    fixture = TestBed.createComponent(CustomerDashbordComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
