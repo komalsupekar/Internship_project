@@ -1,0 +1,111 @@
+body
+ {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+  }
+  .top2
+{
+  align-items: right;
+  top: 450px;
+  right: 5px;
+  padding-left: 20px;
+  position: absolute;
+}
+.top2 a {
+  text-align: center;
+  padding: 20px;
+  color: black;
+  font-size: 20px;
+}
+
+
+
+.top1
+{
+  top: 15px;
+  padding: 10px;
+  Left:100px;
+  position: absolute;
+  font-weight: bold;
+  color: green;
+  align-items: center;
+}
+
+.row1
+{
+
+   /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: lightgreen;
+}
+  .top2
+  {
+    align-items: right;
+    top: 50px;
+    right: 3px;
+    width: 50%;
+    }
+
+  #main {
+    
+    padding: 40px;
+    background-color: white;
+  
+  }
+  
+
+  .col-lg-12
+  {
+      align-items: left;
+  }
+  
+  .mapin
+  {
+    margin:0 0 0;
+    align-items: left;
+  }
+  .row
+  {
+     display: flex;
+     flex-direction: row;
+     /* align-items: center; */
+     width: 100%;
+  }
+  .row::after
+  {
+    content: "";
+   clear: both;
+   display: table;
+  }
+  .container{
+  
+    /* kryptonborder:1px solid black; */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: auto;
+  
+    width:1000px;
+  
+  }
+  .top
+  {
+    align-items: right;
+    top: 40px;
+    right: 50px;
+    position: absolute;}
+  
+    .user
+    {
+      align-items: right;
+      top: 38px;
+      right: 3px;
+      position: absolute;}
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }

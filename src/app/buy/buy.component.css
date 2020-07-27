@@ -1,0 +1,96 @@
+body {
+    font-family: "Lato", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 40px;
+    background-color: grey;
+  }
+
+  .row
+  {
+    /* border:1px solid black; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    background-color: lightgreen;
+  }
+  
+  .top2
+  {
+    align-items: right;
+    top: 30px;
+    right: 5px;
+    padding-left: 20px;
+    position: absolute;
+  }
+  .top2 input[type=button] {
+     
+    padding: 16px;
+    margin-top: 8px;
+    margin-right: 6px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    right: 20px;
+    /* align-items: right; */
+    /* position: absolute; */
+  }
+  .top1
+  {
+    top: 15px;
+    padding: 10px;
+    Left:100px;
+    position: absolute;
+   color:green;
+   font-weight: bold;
+  }
+  .top2 input[type=button] :hover{
+      background-color:black;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
